@@ -1,0 +1,11 @@
+[package]
+name = "srv"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+async-std = { version="1.9.0", features=["attributes"] }
+
+[[bin]]
+name = "srv"
+path = "srv.rs" 
